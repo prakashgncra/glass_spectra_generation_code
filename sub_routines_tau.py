@@ -171,7 +171,7 @@ def GENERATE_SPECTRUM(inp_dict,rank=0):
     return wavelength_arr,tau
 
 def COMPUTE_DOPPLER_B_PARAMETER(inp_dict):
-    from common_lib.parameter_files.physical_constants import phy_const
+    #from common_lib.parameter_files.physical_constants import phy_const
     specie        = inp_dict["specie"]
     transition    = inp_dict["transition"]
     line_dict     = inp_dict["line_dict"]
